@@ -1,0 +1,24 @@
+# Node modules (ignores node_modules in all subdirectories)
+**/node_modules/
+
+# Environment variables
+**/.env
+
+# OS-specific files  
+.DS_Store  
+Thumbs.db  
+
+# Editor-specific files  
+.vscode/  
+.idea/  
+*.swp  
+*.swo  
+
+# Dependencies and caches (ignores package-lock.json, yarn.lock, and pnpm-lock.yaml in all subdirectories)
+**/package-lock.json  
+**/yarn.lock  
+**/pnpm-lock.yaml  
+
+# Miscellaneous  
+*.log  
+*.out  
