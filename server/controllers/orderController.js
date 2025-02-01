@@ -3,7 +3,7 @@ import OrderModel from "../models/orderModels.js";
 import User from "../models/users.js";
 
 const key =
-  "sk_test_51QjoJZIPQK0DXI9NtUJb9TC3IarwsHE4XBE1KyYJUOGXA0ei7mOlHMMTNfLszjfq6vIdlOGywP9KYJqwdQXrhsIP00HsVGlCzM";
+  "stripe_key"
 const stripe = new Stripe(key);
 
 const placeOrder = async (req, res) => {
